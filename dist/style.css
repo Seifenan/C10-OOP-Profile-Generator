@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark: rgb(230, 68, 68);
+  --light: rgb(207, 207, 207);
+
+  --blue: rgb(39, 36, 231);
+
+}
+
+.nav {
+  background-color: var(--dark);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 10px 10px 25px grey;
+
+}
+
+.label {
+  display: flex;
+}
+
+.banner {
+  background-color: var(--blue);
+  color: white;
+  padding-left: 15px;
+}
+
+.card {
+  box-shadow: 10px 10px 25px grey;
+}
+
+.card-body {
+  background-color: var(--light);
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px auto;
+
+}
