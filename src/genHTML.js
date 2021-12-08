@@ -66,21 +66,21 @@ genHTML = (data) => {
     const role = employee.getRole(); 
 
     if (role === "Manager") {
-        const managerCard = genManager(employee);
+      const managerCard = genManager(employee);
 
-        dataArray.push(managerCard);
+      dataArray.push(managerCard);
     }
 
     if (role === "Engineer") {
-        const engineerCard = genEngineer(employee);
+      const engineerCard = genEngineer(employee);
 
-        dataArray.push(engineerCard);
+      dataArray.push(engineerCard);
     }
 
     if (role === "Intern") {
-        const internCard = genIntern(employee);
+      const internCard = genIntern(employee);
 
-        dataArray.push(internCard);
+      dataArray.push(internCard);
     }
   }
 
