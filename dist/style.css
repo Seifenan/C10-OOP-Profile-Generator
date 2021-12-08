@@ -1,37 +1,29 @@
 :root {
   --dark: #e64444;
   --light: #cfcfcf;
-  --link: #1a3bc1;
-  
+  --white: #ffffff;
+  --shadow: #7c7c7c;
+  --link: #001e94;
+
   /* rgb(255, 242, 198); */
 
   --blue: #106cfc;
-
 }
 
 a {
   color: var(--link);
 }
 
+a:hover {
+  color: var(--white);
+}
+
 .banner {
   background-color: var(--dark);
-  color: white;
+  color: var(--white);
   padding: 30px;
-  box-shadow: 10px 10px 25px grey;
-
+  box-shadow: 10px 10px 25px var(--shadow);
 }
-
-
-
-.card {
-  box-shadow: 10px 10px 25px grey;
-  border-radius: 25px 25px 25px 25px;    
-
-  margin: 15px;
-  flex: 1 0 44%;
-  
-}
-
 
 .container {
   display: flex;
@@ -40,11 +32,21 @@ a {
   padding-top: 7%;
 }
 
+.card {
+  box-shadow: 10px 10px 25px var(--shadow);
+  margin: 15px;
+  flex: 1 0 44%;
+}
+
+.card:hover {
+  filter: brightness(90%);
+  box-shadow: 15px 15px 30px var(--shadow);
+}
+
 .card-header {
   background-color: var(--blue);
-  color: white;
+  color: var(--white);
   padding: 1px;
-
 }
 
 .card-body {
@@ -59,11 +61,14 @@ a {
   text-align: center;
 }
 
-
 .card-text {
-  background-color: white;
+  background-color: var(--white);
   padding: 10px;
   border-radius: 25px 25px 25px 25px;    
+}
 
-
+.card-text:hover {
+  box-shadow: 15px 15px 25px var(--shadow);
+  background-color: var(--shadow);
+  color: var(--white);
 }
