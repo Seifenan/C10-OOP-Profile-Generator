@@ -1,0 +1,69 @@
+:root {
+  --dark: #e64444;
+  --light: #cfcfcf;
+  --link: #1a3bc1;
+  
+  /* rgb(255, 242, 198); */
+
+  --blue: #106cfc;
+
+}
+
+a {
+  color: var(--link);
+}
+
+.banner {
+  background-color: var(--dark);
+  color: white;
+  padding: 30px;
+  box-shadow: 10px 10px 25px grey;
+
+}
+
+
+
+.card {
+  box-shadow: 10px 10px 25px grey;
+  border-radius: 25px 25px 25px 25px;    
+
+  margin: 15px;
+  flex: 1 0 44%;
+  
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 7%;
+}
+
+.card-header {
+  background-color: var(--blue);
+  color: white;
+  padding: 1px;
+
+}
+
+.card-body {
+  background-color: var(--light);
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-title {
+  display: flex;
+  text-align: center;
+}
+
+
+.card-text {
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px 25px 25px 25px;    
+
+
+}
