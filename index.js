@@ -154,7 +154,7 @@ const createEmployee = () => {
     {
       type: "list",
       name: "add",
-      message: "Who would you like to add next?",
+      message: "Would you like to add more team members?",
       choices: ["Yes", "No, I'm done adding members; Generate my Team!"]
     }
   ])
