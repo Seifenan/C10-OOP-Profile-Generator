@@ -40,13 +40,13 @@ const createManager = () => {
     {
       type: "input",
       name: "email",
-      message: "Enter the manager's email address!",
+      message: "Enter the manager's email address; No CAPS!",
       validate: emailInput => {
         email = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(emailInput)
         if (email) {
           return true;
         } else {
-          console.log("Please enter a valid email address!");
+          console.log("Please enter a valid email address; No CAPS!");
           return false;
         }
       }
@@ -112,13 +112,13 @@ const createEmployee = () => {
     {
       type: "input",
       name: "email",
-      message: "Enter the employee's email address!",
+      message: "Enter the employee's email address; No CAPS!",
       validate: emailInput => {
         email = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(emailInput)
         if (email) {
           return true;
         } else {
-          console.log("Please enter a valid email address!");
+          console.log("Please enter a valid email address; No CAPS!");
           return false;
         }
       }
@@ -154,7 +154,7 @@ const createEmployee = () => {
     {
       type: "list",
       name: "add",
-      message: "Who would you like to add next?",
+      message: "Would you like to add more team members?",
       choices: ["Yes", "No, I'm done adding members; Generate my Team!"]
     }
   ])
