@@ -7,11 +7,11 @@
     "lib": "lib"
   },
   "scripts": {
-    "jest": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Seifenan/C10-OOP-Profile-Generator"
+    "url": "git+https://github.com/Seifenan/C10-OOP-Profile-Generator.git"
   },
   "keywords": [],
   "author": "Seif Enan",
