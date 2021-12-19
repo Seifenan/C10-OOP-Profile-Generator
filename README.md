@@ -3,7 +3,7 @@
   ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
   ## Description  
-  This application allows users to generate team profile documents by answering questions on the command line and generating the responce in an HTML document. This app uses node.js and requires inquirer and the file system dependencies to generate the team profile documentation.
+  This application allows users to generate a team profile document by answering questions on the command line and generating the responce in an HTML document. This app uses node.js and requires inquirer and the file system dependencies to generate the team profile documentation.
 
   ## Table of Contents 
   * [description](#description)
@@ -20,11 +20,11 @@
   
   --- 
 
-  [Video Demo Link]()
+  [Video Demo Link](https://drive.google.com/file/d/1kkHcOR-exucekMLNFNFQ_Ykpf4Cnt_dN/view?usp=sharing)
 
   --- 
 
-  <img src="assets\images\npm-i.png">
+  <img src="assets\img\screenshot.png">
   
   --- 
 
